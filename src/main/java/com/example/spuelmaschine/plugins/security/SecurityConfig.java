@@ -8,6 +8,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.web.SecurityFilterChain;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @Configuration
 @RequiredArgsConstructor
 public class SecurityConfig {
@@ -18,9 +20,9 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         // Verwendung von `httpBasic` und `csrf` ohne veraltete Methoden
         http
-                .csrf(AbstractHttpConfigurer::disable) // Modernere Methode zum Deaktivieren von CSRF
+                .csrf(AbstractHttpConfigurer::disable) // Methode zum Deaktivieren von CSRF
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/register", "/auth/available").permitAll()
+                        .requestMatchers("/auth/register", "/auth/login", "/auth/available").permitAll()
                         .anyRequest().authenticated()
                 )
                 .logout(logout -> logout
