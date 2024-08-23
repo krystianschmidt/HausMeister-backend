@@ -1,4 +1,4 @@
-package com.example.spuelmaschine.plugins.security;
+package com.example.hausmeister.plugins.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

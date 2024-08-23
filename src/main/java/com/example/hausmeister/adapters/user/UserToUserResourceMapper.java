@@ -1,6 +1,6 @@
-package com.example.spuelmaschine.adapters.user;
+package com.example.hausmeister.adapters.user;
 
-import com.example.spuelmaschine.domain.user.User;
+import com.example.hausmeister.domain.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

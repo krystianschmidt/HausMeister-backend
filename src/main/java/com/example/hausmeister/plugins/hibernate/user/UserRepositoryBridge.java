@@ -1,8 +1,8 @@
-package com.example.spuelmaschine.plugins.hibernate.user;
+package com.example.hausmeister.plugins.hibernate.user;
 
 
-import com.example.spuelmaschine.domain.user.User;
-import com.example.spuelmaschine.domain.user.UserRepository;
+import com.example.hausmeister.domain.user.User;
+import com.example.hausmeister.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

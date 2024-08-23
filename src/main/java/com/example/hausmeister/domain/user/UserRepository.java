@@ -1,4 +1,4 @@
-package com.example.spuelmaschine.domain.user;
+package com.example.hausmeister.domain.user;
 
 public interface UserRepository {
 

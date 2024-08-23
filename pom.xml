@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spuelmaschine</artifactId>
+	<artifactId>hausmeister</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spuelmaschine</name>
+	<name>hausmeister</name>
 	<description>An application to track who last unloaded the dishwasher</description>
 	<url/>
 	<licenses>

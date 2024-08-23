@@ -1,10 +1,10 @@
-package com.example.spuelmaschine.plugins.rest.security;
+package com.example.hausmeister.plugins.rest.security;
 
 
-import com.example.spuelmaschine.adapters.user.UserResource;
-import com.example.spuelmaschine.adapters.user.UserToUserResourceMapper;
-import com.example.spuelmaschine.domain.user.User;
-import com.example.spuelmaschine.domain.user.UserApplication;
+import com.example.hausmeister.adapters.user.UserResource;
+import com.example.hausmeister.adapters.user.UserToUserResourceMapper;
+import com.example.hausmeister.domain.user.User;
+import com.example.hausmeister.domain.user.UserApplication;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,6 +34,11 @@ public class AuthenticationController {
         UserResource user = userToUserResourceMapper.apply(userApplication.getUser());
 
         return ResponseEntity.ok(user);
+    }
+
+    @GetMapping("/available")
+    public ResponseEntity<?> checkUsername(@RequestParam String username){
+        return ResponseEntity.ok(!userApplication.existsByUsername(username));
     }
 
 }

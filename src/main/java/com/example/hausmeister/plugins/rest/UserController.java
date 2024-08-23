@@ -1,4 +1,4 @@
-package com.example.spuelmaschine.plugins.rest;
+package com.example.hausmeister.plugins.rest;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

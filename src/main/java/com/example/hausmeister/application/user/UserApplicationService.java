@@ -1,9 +1,9 @@
-package com.example.spuelmaschine.application.user;
+package com.example.hausmeister.application.user;
 
 
-import com.example.spuelmaschine.domain.user.User;
-import com.example.spuelmaschine.domain.user.UserApplication;
-import com.example.spuelmaschine.domain.user.UserRepository;
+import com.example.hausmeister.domain.user.User;
+import com.example.hausmeister.domain.user.UserApplication;
+import com.example.hausmeister.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;

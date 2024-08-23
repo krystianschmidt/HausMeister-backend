@@ -1,4 +1,4 @@
-package com.example.spuelmaschine.adapters.user;
+package com.example.hausmeister.adapters.user;
 
 import lombok.Builder;
 import lombok.Getter;

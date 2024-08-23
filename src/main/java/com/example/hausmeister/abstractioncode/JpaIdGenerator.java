@@ -1,4 +1,4 @@
-package com.example.spuelmaschine.abstractioncode;
+package com.example.hausmeister.abstractioncode;
 
 
 import org.hibernate.HibernateException;

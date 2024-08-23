@@ -1,6 +1,6 @@
-package com.example.spuelmaschine.plugins.security;
+package com.example.hausmeister.plugins.security;
 
-import com.example.spuelmaschine.domain.user.UserApplication;
+import com.example.hausmeister.domain.user.UserApplication;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

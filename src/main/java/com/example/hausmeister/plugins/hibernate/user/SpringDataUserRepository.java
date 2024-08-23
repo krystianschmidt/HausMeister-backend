@@ -1,7 +1,7 @@
-package com.example.spuelmaschine.plugins.hibernate.user;
+package com.example.hausmeister.plugins.hibernate.user;
 
 
-import com.example.spuelmaschine.domain.user.User;
+import com.example.hausmeister.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SpringDataUserRepository extends JpaRepository<User, String> {
